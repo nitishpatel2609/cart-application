@@ -1,0 +1,147 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 250px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400;
+    position: relative; 
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    /* display: flex; */
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+.cutprice
+{
+    color: red;
+    text-decoration: line-through;
+}
+.cuttextclr{
+    color: black;
+}
+
+.discountval
+{
+    position: absolute;
+    background-color: #6be86b;
+    color: #fff !important;
+    padding: 10px;
+    font-size: 12px;
+    top: 20px;
+}
+.addtocart{
+    color: #00bcd4;
+    font-weight: normal;
+    width: 100%;
+    border: 1px solid #00bcd4;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.addtocart:hover{
+    background-color: #00bcd4;
+    color: #fff;
+}
+.w60{
+    width: 60%;
+    padding: 10px;
+}
+.w20{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+.collection-top-bottom{
+    margin: .5rem 0 1rem 0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+.border-btm
+{
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    display: flex;
+}
+.itemName{
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+}
+button.waves-effect.waves-light.btn.pink.remove{
+  
+}
+li.collection-item.avatar{
+    display: flex;
+}
+.w70{
+    width: 100%;
+}
+.w10{
+    width: 10%;
+}
+.w201{
+    width: 20%;
+}
+.bfull{
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.dflex
+{
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+}
+.dflexTotal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.dflexTotal .w45{
+    width: 45%;
+}
+.dflexTotal .w5{
+    width: 5%;
+}
+.dblock{
+    display: block;
+    padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 993px){
+    .container {
+        width: 80%;
+    }
+}
